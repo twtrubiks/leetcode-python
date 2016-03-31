@@ -28,3 +28,8 @@ class Solution(object):
                     break;
             if(run == False):
                break; 
+               
+if __name__=="__main__":
+    nums = [2, 7, 11, 15]
+    target = 9
+    print Solution().twoSum(nums, target)             
