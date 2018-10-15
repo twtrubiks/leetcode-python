@@ -12,7 +12,7 @@ return [0, 1].
 '''
 
 
-class Solution(object):
+class Solution:
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
@@ -24,8 +24,12 @@ class Solution(object):
                 if (one != two) and (one + two == target):
                     return [index_one, index_two]
 
+    """
+    If there is a repetition in nums , will FAILED
+    """
 
-class Solution_better(object):
+
+class Solution_better:
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
@@ -37,10 +41,3 @@ class Solution_better(object):
             if target - value in dict_temp:
                 return [dict_temp[target - value], index]
             dict_temp[value] = index
-
-
-if __name__ == "__main__":
-    nums = [2, 7, 11, 15]
-    target = 9
-    answer = Solution().twoSum(nums, target)
-    print('answer:', answer)

@@ -1,14 +1,29 @@
 # leetcode-python
-LeetCode use Python  :memo:
+LeetCode use Python :memo:
 
 ## 說明
-在 [LeetCode](https://leetcode.com/) 上練習的題目，在這裡把解出來的題目和大家做分享並且記錄一下，<br>
-並不是全部的題目都是自己寫出來的，有些題目是上網參考別人的答案:smile:，<br>
-會持續做更新:pencil2:<br>
+分享 [LeetCode](https://leetcode.com/) 上練習的題目，在這裡把解出來的題目和大家做分享並且記錄一下，
+
+並不是全部的題目都是自己寫出來的，有些題目是上網參考別人的答案:smile:，
+
+會持續做更新:pencil2:
+
+## 題目
+
+[001-Two Sum](https://github.com/twtrubiks/leetcode-python/blob/master/Two_Sum_001.py) - youtube tutorial [001 Two Sum - leetcode tutorial](https://youtu.be/fo5knjhk-i0)
 
 ## 執行環境
-* Ubuntu 12.04
-* Python 2.7.3
+
+* Python 3.6.6
+
+## Donation
+
+文章都是我自己研究內化後原創，如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+
+![alt tag](https://i.imgur.com/LRct9xa.png)
+
+[贊助者付款](https://payment.opay.tw/Broadcaster/Donate/9E47FDEF85ABE383A0F5FC6A218606F8)
 
 ## License
+
 MIT license
