@@ -14,6 +14,8 @@ LeetCode use Python :memo:
 
 [007-Reverse Integer](https://github.com/twtrubiks/leetcode-python/blob/master/Reverse_Integer_007.py) - youtube tutorial [007 Reverse Integer](https://youtu.be/sPK7Lw7Ospg)
 
+[009-Palindrome Number](https://github.com/twtrubiks/leetcode-python/blob/master/Palindrome_Number_009.py) - youtube tutorial [009 Palindrome Number - leetcode tutorial](xxx)
+
 ## 執行環境
 
 * Python 3.6.6
