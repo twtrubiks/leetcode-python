@@ -19,6 +19,19 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        for index_one, one in enumerate(nums):
+            for index_two, two in enumerate(nums):
+                if (one != two) and (one + two == target):
+                    return [index_one, index_two]
+
+
+class Solution_better(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
         dict_temp = dict()
         for index, value in enumerate(nums):
             if target - value in dict_temp:
@@ -27,6 +40,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
-    nums = [3, 2, 4]
-    target = 6
-    print(Solution().twoSum(nums, target))
+    nums = [2, 7, 11, 15]
+    target = 9
+    answer = Solution().twoSum(nums, target)
+    print('answer:', answer)
