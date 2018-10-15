@@ -1,40 +1,31 @@
 '''
-Reverse digits of an integer.
+Example 1:
+Input: 123
+Output: 321
 
-Example1: x = 123, return 321
-Example2: x = -123, return -321
+Example 2:
+Input: -123
+Output: -321
 
-Runtime: 60 ms
+Example 3:
+Input: 120
+Output: 21
+
+Note:
+Assume we are dealing with an environment which could only store integers within the
+32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem,
+assume that your function returns 0 when the reversed integer overflows.
 '''
-class Solution(object):
+
+
+class Solution:
     def reverse(self, x):
         """
         :type x: int
         :rtype: int
-        """       
-        newstr=''
-        if(x==0):
-           return x;
+        """
+        reversed_int = int(str(abs(x))[::-1])
+        if reversed_int >= 2 ** 31 - 1 or x == 0:
+            return 0
 
-        if(x<0):
-           xstr=str(abs(x));
-           for i in reversed(xstr):
-             newstr+=i;
-           output = '-'+newstr;
-           if(abs(int(newstr))>=2147483647):
-               return  0;      
-           else:
-              return int(output);
-          
-        if(x>0):
-           xstr=str(x);
-           for i in reversed(xstr):
-              newstr+=i;
-           if(int(newstr)>=2147483647):
-               return  0;      
-           else:
-               return int(newstr);
-               
-if __name__=="__main__":
-    x = -123
-    print Solution().reverse(x) 
+        return reversed_int * -1 if x < 0 else reversed_int

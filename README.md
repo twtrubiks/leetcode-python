@@ -12,6 +12,8 @@ LeetCode use Python :memo:
 
 [001-Two Sum](https://github.com/twtrubiks/leetcode-python/blob/master/Two_Sum_001.py) - youtube tutorial [001 Two Sum - leetcode tutorial](https://youtu.be/fo5knjhk-i0)
 
+[007-Reverse Integer](https://github.com/twtrubiks/leetcode-python/blob/master/Reverse_Integer_007.py) - youtube tutorial [007 Reverse Integer](https://youtu.be/sPK7Lw7Ospg)
+
 ## 執行環境
 
 * Python 3.6.6
