@@ -14,11 +14,13 @@ LeetCode use Python :memo:
 
 [007-Reverse Integer](https://github.com/twtrubiks/leetcode-python/blob/master/Reverse_Integer_007.py) - youtube tutorial [007 Reverse Integer](https://youtu.be/sPK7Lw7Ospg)
 
-[009-Palindrome Number](https://github.com/twtrubiks/leetcode-python/blob/master/Palindrome_Number_009.py) - youtube tutorial [009 Palindrome Number](xxx)
+[009-Palindrome Number](https://github.com/twtrubiks/leetcode-python/blob/master/Palindrome_Number_009.py) - youtube tutorial [待新增009 Palindrome Number](xxx)
 
-[013-Roman to Integer](https://github.com/twtrubiks/leetcode-python/blob/master/Roman_to_Integer_013.py) - youtube tutorial [013 Roman to Integer](xxx)
+[013-Roman to Integer](https://github.com/twtrubiks/leetcode-python/blob/master/Roman_to_Integer_013.py) - youtube tutorial [待新增013 Roman to Integer](xxx)
 
-[014-Longest Common Prefix](https://github.com/twtrubiks/leetcode-python/blob/master/Longest_Common_Prefix_014.py) - youtube tutorial [014 Longest Common Prefix](xxx)
+[014-Longest Common Prefix](https://github.com/twtrubiks/leetcode-python/blob/master/Longest_Common_Prefix_014.py) - youtube tutorial [待新增014 Longest Common Prefix](xxx)
+
+[020-Valid Parentheses](https://github.com/twtrubiks/leetcode-python/blob/master/Valid_Parentheses_020.py) - youtube tutorial [待新增020 Valid Parentheses](xxx)
 
 ## 執行環境
 
