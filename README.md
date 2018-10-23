@@ -26,7 +26,9 @@ LeetCode use Python :memo:
 
 [026-Remove Duplicates from Sorted Array](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Duplicates_from_Sorted_Array_026.py) - youtube tutorial [待新增026 Remove Duplicates from Sorted Array](xxx) - [explanation](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Duplicates_from_Sorted_Array_026_explanation.py)
 
-[027-Remove Element](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Element_027.py) - youtube tutorial [待新增027Remove Element](xxx) 
+[027-Remove Element](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Element_027.py) - youtube tutorial [待新增027Remove Element](xxx)
+
+[028-Implement strStr](https://github.com/twtrubiks/leetcode-python/blob/master/Implement_strStr_028.py) - youtube tutorial [待新增028Implement strStr](xxx) 
 
 ## 執行環境
 
