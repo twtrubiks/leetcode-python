@@ -28,7 +28,9 @@ LeetCode use Python :memo:
 
 [027-Remove Element](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Element_027.py) - youtube tutorial [待新增027Remove Element](xxx)
 
-[028-Implement strStr](https://github.com/twtrubiks/leetcode-python/blob/master/Implement_strStr_028.py) - youtube tutorial [待新增028Implement strStr](xxx) 
+[028-Implement strStr](https://github.com/twtrubiks/leetcode-python/blob/master/Implement_strStr_028.py) - youtube tutorial [待新增028Implement strStr()](xxx)
+
+[035-Search Insert Position](https://github.com/twtrubiks/leetcode-python/blob/master/Search_Insert_Position_035.py) - youtube tutorial [待新增035Search Insert Position](xxx) 
 
 ## 執行環境
 
