@@ -30,6 +30,28 @@ class Solution:
         """
 
         for index, value in enumerate(nums):
-            if target == value or value > target:
+            if value >= target:
                 return index
         return len(nums)
+
+
+class Solution_bisect:
+    def searchInsert(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: int
+        """
+        # this is very close the bisect module in python library, which is even conciser.
+        # ref. https://leetcode.com/problems/search-insert-position/discuss/15378/A-fast-and-concise-python-solution-40ms-binary-search
+        left = 0
+        right = len(nums) - 1
+        while left <= right:
+            mid = int((left + right) / 2)
+            if nums[mid] == target:
+                return mid
+            if nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+        return left

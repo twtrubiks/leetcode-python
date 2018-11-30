@@ -10,6 +10,8 @@ Output: 2
 Example 2:
 Input: haystack = "aaaaa", needle = "bba"
 Output: -1
+
+What should we return when needle is an empty string? This is a great question to ask during an interview.
 '''
 
 

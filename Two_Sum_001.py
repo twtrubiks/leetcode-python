@@ -29,6 +29,14 @@ class Solution:
     """
 
 
+class Solution_Improve:
+    def twoSum(self, nums, target):
+        for index_one in range(len(nums)):
+            for index_two in range(index_one + 1, len(nums)):
+                if nums[index_one] + nums[index_two] == target:
+                    return [index_one, index_two]
+
+
 class Solution_better:
     def twoSum(self, nums, target):
         """

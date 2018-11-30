@@ -29,3 +29,23 @@ class Solution:
             return 0
 
         return reversed_int * -1 if x < 0 else reversed_int
+
+
+class Solution_2:
+    def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        # without converting the integer to a string
+        flag = -1 if x < 0 else 1
+        x = abs(x)
+        result = 0
+        while x:
+            result = result * 10 + x % 10
+            x = int(x / 10)
+
+        if result >= 2 ** 31 - 1:
+            return 0
+
+        return result * flag

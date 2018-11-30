@@ -64,8 +64,7 @@ class Solution:
                     temp = ''
                     continue
                 total += mapping[temp]
-                temp = ''
-            temp += roman
+            temp = roman
         if temp:
             total += mapping[temp]
         return total

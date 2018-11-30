@@ -40,3 +40,22 @@ class Solution_better:
         :rtype: bool
         """
         return False if x < 0 else x == int(str(x)[::-1])
+
+
+class Solution_2:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        # without converting the integer to a string
+
+        if x < 0:
+            return False
+        result = 0
+        original = x
+        while x:
+            result = result * 10 + x % 10
+            x = int(x / 10)
+
+        return result == original

@@ -22,12 +22,18 @@ class Test_Case(unittest.TestCase):
         haystack = "hello"
         needle = "ll"
         result = 2
-        self.assertEqual(Solution().strStr(haystack,needle), result)
+        self.assertEqual(Solution().strStr(haystack, needle), result)
 
     def test_answer_02(self):
         haystack = "aaaaa"
         needle = "bba"
         result = -1
+        self.assertEqual(Solution().strStr(haystack, needle), result)
+
+    def test_answer_03(self):
+        haystack = "aaaaa"
+        needle = ""
+        result = 0
         self.assertEqual(Solution().strStr(haystack, needle), result)
 
 

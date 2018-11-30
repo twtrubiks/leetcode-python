@@ -68,5 +68,6 @@ class Test_Case(unittest.TestCase):
         result = 1695
         self.assertEqual(Solution().romanToInt(roman), result)
 
+
 if __name__ == '__main__':
     unittest.main()
