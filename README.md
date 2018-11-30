@@ -34,6 +34,8 @@ LeetCode use Python :memo:
 
 [038-Count and Say](https://github.com/twtrubiks/leetcode-python/blob/master/Count_and_Say_038.py) - youtube tutorial [待新增038Count and Say](xxx)
 
+[053-Maximum Subarray](https://github.com/twtrubiks/leetcode-python/blob/master/Maximum_Subarray_053.py) - youtube tutorial [待新增053Maximum Subarray](xxx)
+
 
 
 ## 執行環境
