@@ -40,6 +40,8 @@ LeetCode use Python :memo:
 
 [066-Plus One](https://github.com/twtrubiks/leetcode-python/blob/master/Plus_One_066.py) - youtube tutorial [待新增066Plus One](xxx)
 
+[067-Add Binary](https://github.com/twtrubiks/leetcode-python/blob/master/Add_Binary_067.py) - youtube tutorial [待新增067Add Binary](xxx)
+
 ## 執行環境
 
 * Python 3.6.6
