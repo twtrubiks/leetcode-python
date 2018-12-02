@@ -38,6 +38,8 @@ LeetCode use Python :memo:
 
 [058-Length of Last Word](https://github.com/twtrubiks/leetcode-python/blob/master/Length_of_Last_Word_058.py) - youtube tutorial [待新增058Length of Last Word](xxx)
 
+[066-Plus One](https://github.com/twtrubiks/leetcode-python/blob/master/Plus_One_066.py) - youtube tutorial [待新增066Plus One](xxx)
+
 ## 執行環境
 
 * Python 3.6.6
