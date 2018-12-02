@@ -42,6 +42,8 @@ LeetCode use Python :memo:
 
 [067-Add Binary](https://github.com/twtrubiks/leetcode-python/blob/master/Add_Binary_067.py) - youtube tutorial [待新增067Add Binary](xxx)
 
+[069-Sqrt(x)](https://github.com/twtrubiks/leetcode-python/blob/master/Sqrtx_069.py) - youtube tutorial [待新增069Sqrt(x)](xxx)
+
 ## 執行環境
 
 * Python 3.6.6
