@@ -36,7 +36,7 @@ LeetCode use Python :memo:
 
 [053-Maximum Subarray](https://github.com/twtrubiks/leetcode-python/blob/master/Maximum_Subarray_053.py) - youtube tutorial [待新增053Maximum Subarray](xxx)
 
-
+[058-Length of Last Word](https://github.com/twtrubiks/leetcode-python/blob/master/Length_of_Last_Word_058.py) - youtube tutorial [待新增058Length of Last Word](xxx)
 
 ## 執行環境
 
