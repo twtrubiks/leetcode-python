@@ -44,6 +44,8 @@ LeetCode use Python :memo:
 
 [069-Sqrt(x)](https://github.com/twtrubiks/leetcode-python/blob/master/Sqrtx_069.py) - youtube tutorial [待新增069Sqrt(x)](xxx)
 
+[070-Climbing Stairs](https://github.com/twtrubiks/leetcode-python/blob/master/Climbing_Stairs_070.py) - youtube tutorial [待新增070Climbing Stairs](xxx)
+
 ## 執行環境
 
 * Python 3.6.6
