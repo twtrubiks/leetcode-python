@@ -20,7 +20,7 @@ LeetCode use Python :memo:
 
 [014-Longest Common Prefix](https://github.com/twtrubiks/leetcode-python/blob/master/Longest_Common_Prefix_014.py) - youtube tutorial [014 Longest Common Prefix]( https://youtu.be/t-oA2U27d4w)
 
-[020-Valid Parentheses](https://github.com/twtrubiks/leetcode-python/blob/master/Valid_Parentheses_020.py) - youtube tutorial [待新增020 Valid Parentheses](xxx)
+[020-Valid Parentheses](https://github.com/twtrubiks/leetcode-python/blob/master/Valid_Parentheses_020.py) - youtube tutorial [020 Valid Parentheses](https://youtu.be/snSaKshK-Ws)
 
 [021-Merge Two Sorted Lists](https://github.com/twtrubiks/leetcode-python/blob/master/Merge_Two_Sorted_Lists_021.py) - youtube tutorial [待新增021 Merge Two Sorted Lists](xxx) - [explanation](https://github.com/twtrubiks/leetcode-python/blob/master/Merge_Two_Sorted_Lists_021_explanation.py)
 

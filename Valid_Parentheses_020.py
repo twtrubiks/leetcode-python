@@ -69,3 +69,5 @@ class Solution_better:
         if not stack:
             return True
         return False
+        # return True if not stack else False
+        # return False if stack else True
