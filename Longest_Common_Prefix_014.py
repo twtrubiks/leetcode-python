@@ -37,7 +37,7 @@ class Solution:
                 if str_per == s:
                     continue
                 if str_per[index] != value:
-                    return s[:index] if s[:index] else ""
+                    return s[:index]
         return s
 
 
@@ -55,5 +55,5 @@ class Solution_better:
 
         for index, value in enumerate(s1):
             if value != s2[index]:
-                return s1[:index]
+                return s2[:index]
         return s1
