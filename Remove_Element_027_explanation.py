@@ -7,7 +7,3 @@ a = b = [1, 1, 2, 4]
 b.remove(1)
 print('a', a)
 print('b', b)
-
-a1 = b1 = [1, 1, 2, 4]
-print('a1', a1)
-print('set(b1)', set(b1))

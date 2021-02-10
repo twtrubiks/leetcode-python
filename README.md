@@ -1,7 +1,9 @@
 # leetcode-python
+
 LeetCode use Python :memo:
 
 ## 說明
+
 分享 [LeetCode](https://leetcode.com/) 上練習的題目，在這裡把解出來的題目和大家做分享並且記錄一下，
 
 並不是全部的題目都是自己寫出來的，有些題目是上網參考別人的答案:smile:，
@@ -45,6 +47,8 @@ LeetCode use Python :memo:
 [069-Sqrt(x)](https://github.com/twtrubiks/leetcode-python/blob/master/Sqrtx_069.py) - youtube tutorial [待新增069Sqrt(x)](xxx)
 
 [070-Climbing Stairs](https://github.com/twtrubiks/leetcode-python/blob/master/Climbing_Stairs_070.py) - youtube tutorial [待新增070Climbing Stairs](xxx)
+
+[080-Remove Duplicates from Sorted Array II](https://github.com/twtrubiks/leetcode-python/blob/master/Remove_Duplicates_from_Sorted_Array_II_080.py) - youtube tutorial [待新增](xxx)
 
 ## 執行環境
 

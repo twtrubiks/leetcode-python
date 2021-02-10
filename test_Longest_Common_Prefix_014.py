@@ -24,34 +24,34 @@ All given inputs are in lowercase letters a-z.
 class Test_Case(unittest.TestCase):
 
     def test_answer_01(self):
-        input = ["flower", "flow", "flight"]
+        strs = ["flower", "flow", "flight"]
         result = "fl"
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_02(self):
-        input = ["dog", "racecar", "car"]
+        strs = ["dog", "racecar", "car"]
         result = ""
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_03(self):
-        input = []
+        strs = []
         result = ""
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_04(self):
-        input = [""]
+        strs = [""]
         result = ""
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_05(self):
-        input = ["a"]
+        strs = ["a"]
         result = "a"
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_06(self):
-        input = ["aa", "aa"]
+        strs = ["aa", "aa"]
         result = "aa"
-        self.assertEqual(Solution().longestCommonPrefix(input), result)
+        self.assertEqual(Solution().longestCommonPrefix(strs), result)
 
     def test_answer_07(self):
         input = ["", "b"]

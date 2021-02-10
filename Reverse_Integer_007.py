@@ -18,7 +18,7 @@ assume that your function returns 0 when the reversed integer overflows.
 '''
 
 
-class Solution:
+class Solution_Brute_Force:
     def reverse(self, x):
         """
         :type x: int
@@ -31,7 +31,7 @@ class Solution:
         return reversed_int * -1 if x < 0 else reversed_int
 
 
-class Solution_2:
+class Solution:
     def reverse(self, x):
         """
         :type x: int

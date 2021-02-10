@@ -43,6 +43,11 @@ class Test_Case(unittest.TestCase):
         result = 21
         self.assertEqual(Solution().reverse(x), result)
 
+    def test_answer_04(self):
+        x = 0
+        result = 0
+        self.assertEqual(Solution().reverse(x), result)
+
 
 if __name__ == '__main__':
     unittest.main()

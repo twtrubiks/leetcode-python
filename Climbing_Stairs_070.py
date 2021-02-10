@@ -23,7 +23,7 @@ Explanation: There are three ways to climb to the top.
 '''
 
 
-class Solution:
+class Solution2:
     def climbStairs(self, n):
         """
         :type n: int
@@ -31,7 +31,23 @@ class Solution:
         """
         # fibonacci
         # 1 -> 2 -> 3 -> 5 -> 8
-        a = b = 1
+        a = 1
+        b = 1
         for _ in range(n):
             a, b = b, a + b
         return a
+
+# Time Limit Exceeded
+class SolutionBruteForce:
+    def climbStairs(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 1:
+            return 1
+
+        if n == 2:
+            return 2
+
+        return self.climbStairs(n-1) + self.climbStairs(n-2)

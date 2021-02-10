@@ -14,6 +14,15 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 '''
 
+class Solution2:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        nums[:] = set(nums)
+
+        # nums = set(nums) # it doesn't accept
+        # Without "[:]", you're creating a new list object
+        # https://stackoverflow.com/a/10623352/4440387
+
+        return len(nums)
 
 class Solution:
     def removeDuplicates(self, nums):

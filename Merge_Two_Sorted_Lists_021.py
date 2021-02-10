@@ -11,8 +11,8 @@ Output: 1->1->2->3->4->4
 
 # Definition for singly-linked list.
 class ListNode:
-    def __init__(self, x):
-        self.val = x
+    def __init__(self, val):
+        self.val = val
         self.next = None
 
 
@@ -49,8 +49,10 @@ class Solution_Recursive(object):
             return l1 or l2
 
         if l1.val < l2.val:
+            print('l1.val:', l1.val)
             l1.next = self.mergeTwoLists(l1.next, l2)
             return l1
         else:
+            print('l2.val:', l2.val)
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2

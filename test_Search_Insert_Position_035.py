@@ -21,6 +21,10 @@ Output: 4
 Example 4:
 Input: [1,3,5,6], 0
 Output: 0
+
+Example 5:
+Input: nums = [1], target = 0
+Output: 0
 '''
 
 
@@ -50,6 +54,11 @@ class Test_Case(unittest.TestCase):
         result = 0
         self.assertEqual(Solution().searchInsert(nums, target), result)
 
+    def test_answer_05(self):
+        nums = [1]
+        target = 0
+        result = 0
+        self.assertEqual(Solution().searchInsert(nums, target), result)
 
 if __name__ == '__main__':
     unittest.main()

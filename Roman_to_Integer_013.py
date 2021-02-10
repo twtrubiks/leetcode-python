@@ -37,7 +37,6 @@ Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 '''
 
-
 class Solution:
     def romanToInt(self, s):
         """
@@ -54,44 +53,10 @@ class Solution:
             'M': 1000
         }
 
-        temp = ''
-        total = 0
-
-        for roman in s:
-            if temp:
-                if mapping[roman] > mapping[temp]:
-                    total += mapping[roman] - mapping[temp]
-                    temp = ''
-                    continue
-                total += mapping[temp]
-            temp = roman
-        if temp:
-            total += mapping[temp]
-        return total
-
-
-class Solution_better:
-    def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        mapping = {
-            'I': 1,
-            'V': 5,
-            'X': 10,
-            'L': 50,
-            'C': 100,
-            'D': 500,
-            'M': 1000
-        }
-
-        total = 0
-
-        for roman in range(len(s) - 1):
-            if mapping[s[roman]] >= mapping[s[roman + 1]]:
-                total += mapping[s[roman]]
+        sum = 0
+        for index in range(len(s)-1):
+            if mapping[s[index]] >= mapping[s[index+1]]:
+                sum += mapping[s[index]]
             else:
-                total -= mapping[s[roman]]
-        total += mapping[s[-1]]
-        return total
+                sum -= mapping[s[index]]
+        return sum + mapping[s[-1]]

@@ -16,8 +16,18 @@ Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 '''
 
-
 class Solution:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        x = str(x)
+        if '-' in x:
+            return False
+        return x == x[::-1]
+
+class Solution2:
     def isPalindrome(self, x):
         """
         :type x: int
@@ -42,7 +52,7 @@ class Solution_better:
         return False if x < 0 else x == int(str(x)[::-1])
 
 
-class Solution_2:
+class Solution3:
     def isPalindrome(self, x):
         """
         :type x: int

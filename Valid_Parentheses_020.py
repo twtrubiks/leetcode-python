@@ -28,7 +28,6 @@ Input: "{[]}"
 Output: true
 '''
 
-
 class Solution:
     def isValid(self, s):
         """
@@ -66,8 +65,4 @@ class Solution_better:
                     return False
                 if mapping[stack.pop()] != char:
                     return False
-        if not stack:
-            return True
-        return False
-        # return True if not stack else False
-        # return False if stack else True
+        return False if stack else True

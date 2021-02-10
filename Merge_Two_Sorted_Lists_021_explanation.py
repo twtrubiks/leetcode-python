@@ -27,3 +27,4 @@ if __name__ == "__main__":
     print("see L1 and L2 var")
     L2.next = ListNode(2)
     print("see L1 and L2 var")
+

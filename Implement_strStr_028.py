@@ -14,7 +14,6 @@ Output: -1
 What should we return when needle is an empty string? This is a great question to ask during an interview.
 '''
 
-
 class Solution:
     def strStr(self, haystack, needle):
         """

@@ -1,3 +1,4 @@
+
 def trunk_1(arr_1, size_1):
     result_1 = []
     while arr:
@@ -16,6 +17,16 @@ def trunk_2(arr_2, size_2):
     return arrs
 
 
+def trunk_3(arr, size):
+    result = []
+
+    count = 0
+    while count < len(arr):
+        result.append(arr[count:count+size])
+        count += size
+    return result
+
+
 if __name__ == "__main__":
     '''
     arr = [1, 2, 3, 4, 5, 6]
@@ -24,5 +35,5 @@ if __name__ == "__main__":
     '''
     arr = [1, 2, 3, 4, 5, 6]
     size = 2
-    result = trunk_2(arr, size)
+    result = trunk_1(arr, size)
     print(result)

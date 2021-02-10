@@ -31,7 +31,7 @@ class Test_Case(unittest.TestCase):
         self.assertEqual(Solution().strStr(haystack, needle), result)
 
     def test_answer_03(self):
-        haystack = "aaaaa"
+        haystack = ""
         needle = ""
         result = 0
         self.assertEqual(Solution().strStr(haystack, needle), result)

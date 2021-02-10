@@ -17,29 +17,24 @@ Note:
 All given inputs are in lowercase letters a-z.
 '''
 
-
 class Solution:
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
-        if strs:
-            strs.sort(key=len)
-            s = strs[0]
-            if not s:
-                return ""
-        else:
-            return ""
+        if not strs:
+            return ''
 
-        for index, value in enumerate(s):
-            for str_per in strs:
-                if str_per == s:
+        m_str = min(strs, key=len)
+
+        for i, v in enumerate(m_str):
+            for s in strs:
+                if s == m_str:
                     continue
-                if str_per[index] != value:
-                    return s[:index]
-        return s
-
+                if s[i] != v:
+                    return m_str[:i]
+        return m_str
 
 class Solution_better:
     def longestCommonPrefix(self, strs):
@@ -49,7 +44,9 @@ class Solution_better:
         """
         if not strs:
             return ''
-        # retrieved min max by alphabetical order
+
+        # retrieved min(strs) max(strs) by alphabetical order
+
         s1 = min(strs)
         s2 = max(strs)
 
@@ -57,3 +54,4 @@ class Solution_better:
             if value != s2[index]:
                 return s2[:index]
         return s1
+

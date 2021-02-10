@@ -38,6 +38,10 @@ class Test_Case(unittest.TestCase):
         result = 3
         self.assertEqual(Solution().climbStairs(n), result)
 
+    def test_answer_03(self):
+        n = 4
+        result = 5
+        self.assertEqual(Solution().climbStairs(n), result)
 
 if __name__ == '__main__':
     unittest.main()

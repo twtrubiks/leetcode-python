@@ -17,14 +17,15 @@ Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 '''
 
-
 class Solution:
     def plusOne(self, digits):
         """
         :type digits: List[int]
         :rtype: List[int]
         """
-        digit = int(''.join(str(i) for i in digits))
-        digit += 1
+        if digits and (digits[-1] + 1) < 10:
+            digits[-1] = digits[-1] + 1
+            return digits
+        num = int("".join(str(d) for d in digits)) + 1
+        return [int(s) for s in str(num)]
 
-        return [int(i) for i in str(digit)]

@@ -43,6 +43,10 @@ class Test_Case(unittest.TestCase):
         result = [1, 0, 0]
         self.assertEqual(Solution().plusOne(digits), result)
 
+    def test_answer_05(self):
+        digits = [0, 0]
+        result = [0, 1]
+        self.assertEqual(Solution().plusOne(digits), result)
 
 if __name__ == '__main__':
     unittest.main()

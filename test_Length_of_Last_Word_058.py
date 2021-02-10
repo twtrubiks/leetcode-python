@@ -27,6 +27,10 @@ class Test_Case(unittest.TestCase):
         result = 1
         self.assertEqual(Solution().lengthOfLastWord(s), result)
 
+    def test_answer_03(self):
+        s = " "
+        result = 0
+        self.assertEqual(Solution().lengthOfLastWord(s), result)
 
 
 if __name__ == '__main__':

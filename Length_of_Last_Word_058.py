@@ -18,8 +18,6 @@ class Solution:
         :type s: str
         :rtype: int
         """
-        text = ''
-        for i in s.split(' '):
-            if i != '':
-                text = i
-        return len(text)
+        s = s.split()
+        return len(s[-1]) if s else 0
+

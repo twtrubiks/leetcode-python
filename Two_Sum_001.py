@@ -9,6 +9,9 @@ Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
+
+apply Hash Table
+ref. https://en.wikipedia.org/wiki/Hash_table
 '''
 
 
@@ -44,8 +47,25 @@ class Solution_better:
         :type target: int
         :rtype: List[int]
         """
+        """
+        Hash Table
+
+        Search
+        Average : O(1)
+        Worst case : O(n)
+        """
         dict_temp = dict()
         for index, value in enumerate(nums):
             if target - value in dict_temp:
                 return [dict_temp[target - value], index]
             dict_temp[value] = index
+
+
+class Solution_failed:
+    # failed test_answer_04
+    def twoSum(self, nums, target):
+        correct = []
+        for i in range(len(nums)):
+            if target - nums[i] in nums:
+                correct.append(i)
+        return correct
