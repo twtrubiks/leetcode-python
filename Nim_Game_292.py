@@ -5,16 +5,22 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 
 For example, if there are 4 stones in the heap, then you will never win the game: no matter 1, 2, or 3 stones you remove, the last stone will always be removed by your friend.
 
-Runtime: 52 ms
+Example 1:
+
+Input: n = 4
+Output: false
+
+Example 2:
+
+Input: n = 1
+Output: true
+
+Example 3:
+
+Input: n = 2
+Output: true
 '''
+
 class Solution(object):
-    def canWinNim(self, n):
-        """
-        :type n: int
-        :rtype: bool
-        """
-        return n %4 >0;    
-        
-if __name__=="__main__":
-    n = 6
-    print Solution().canWinNim(n)             
+    def canWinNim(self, n: int) -> bool:
+        return n %4 >0

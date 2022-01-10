@@ -19,11 +19,7 @@ assume that your function returns 0 when the reversed integer overflows.
 
 
 class Solution_Brute_Force:
-    def reverse(self, x):
-        """
-        :type x: int
-        :rtype: int
-        """
+    def reverse(self, x: int) -> int:
         reversed_int = int(str(abs(x))[::-1])
         if reversed_int >= 2 ** 31 - 1 or x == 0:
             return 0
@@ -32,18 +28,14 @@ class Solution_Brute_Force:
 
 
 class Solution:
-    def reverse(self, x):
-        """
-        :type x: int
-        :rtype: int
-        """
+    def reverse(self, x: int) -> int:
         # without converting the integer to a string
         flag = -1 if x < 0 else 1
         x = abs(x)
         result = 0
         while x:
             result = result * 10 + x % 10
-            x = int(x / 10)
+            x = x // 10
 
         if result >= 2 ** 31 - 1:
             return 0
